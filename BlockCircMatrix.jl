@@ -1,3 +1,4 @@
+##A function to make a block circulant matrix from a three-dimensional tensor
 
 function BCM(A)
     a,b,c=size(A)
