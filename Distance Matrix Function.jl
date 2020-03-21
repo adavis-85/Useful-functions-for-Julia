@@ -60,6 +60,5 @@ Distances=distance_matrix(point_list)
  10.4403   6.40312   5.83095   0.0      9.48683
   6.08276  4.12311   6.32456   9.48683  0.0  
 
-point_list
 
 
