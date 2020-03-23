@@ -1,3 +1,7 @@
+##The matrix needs to be a matrix of any size with the b column attached .  This function uses that information to solve 
+##for the x values.
+
+
 function echelon_solver(in_matrix)
     x,y=size(in_matrix)
     ##It is essential to have the matrix of the right type for the processes that will be done.  Here it is converted.
