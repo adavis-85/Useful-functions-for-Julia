@@ -1,5 +1,5 @@
 ##The matrix needs to be a matrix of any size with the b column attached .  This function uses that information to solve 
-##for the x values.
+##for the variables.
 
 
 function echelon_solver(in_matrix)
