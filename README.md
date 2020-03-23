@@ -1,6 +1,6 @@
 # Functions and ideas
 
-The files are for functions that were needed for different processes :
+The files are for functions that were needed for different processes.  All are commented and explained in detail in the code file themselves :
 
 1. block circulant matrix.
 
