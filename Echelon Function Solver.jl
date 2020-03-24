@@ -66,10 +66,13 @@ function echelon_solver(in_matrix)
     end
         
     ##Results desired are the solved matrix and the x values in array form.
-   c=0
-    if x>=y
+    c=0
+    if x==y
     c=mate[:,y]
     c[side+1:x] .=0
+    elseif x>y
+        c=mate[:,y]
+        c=c[1:side]
     else
        c=mate[:,y]
         c=vcat(c,zeros((y-1)-x))
@@ -118,7 +121,5 @@ a
 b
  -2.11111
   3.0    
-  0.0    
-  0.0    
-  0.0 
+   
 
