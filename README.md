@@ -7,3 +7,5 @@ The files are for functions that were needed for different processes.  All are c
 2. distance matrix function for traveling salesman problem.
 
 3. echelon function to solve a matrix.
+
+4.  solver for distance matrix for traveling salesman problem.
