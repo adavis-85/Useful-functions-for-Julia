@@ -11,7 +11,7 @@ function b_and_b_tsp(matrix)
     ##This is the objective value to be returned after the shortest path is found.
     n_for_return=0  
  
-    ##The loop starts at two becaus the first point in the list is the beginning point.  The loop also starts at 2
+    ##The loop starts at two because the first point in the list is the beginning point.  The loop also starts at 2
     ##because in a distance matrix the nodes cannot visit each other.  The diagonal is all zeros.
     for i::Int in 2:b
         
